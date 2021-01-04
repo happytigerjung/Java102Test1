@@ -7,7 +7,7 @@ public class Person {
 	public String email;
 	
 	public void getInfo() {
-		System.out.println("ÀÌ¸§ :"+name+"³ªÀÌ :"+age+"¼ºº° :"+gender+"ÀÌ¸ŞÀÏ :"+email);
+		System.out.println("ì´ë¦„ :"+name+"ë‚˜ì´ :"+age+"ì„±ë³„ :"+gender+"ì´ë©”ì¼ :"+email);
 	}
 
 }

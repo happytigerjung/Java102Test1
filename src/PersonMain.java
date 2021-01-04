@@ -40,7 +40,7 @@ public class PersonMain {
 		Student s1 = new Student();
 		
 		s1.name = "정현조";
-		s1.grade = 1;
+		s1.grade = "1";
 		s1.height = 175;
 		s1.weight = 89.5;
 		s1.gender = 'm';
@@ -53,7 +53,7 @@ public class PersonMain {
 		Student s2 = new Student();
 		
 		s2.name = "유인나";
-		s2.grade = 1;
+		s2.grade = "1";
 		s2.height = 165;
 		s2.weight = 45.5;
 		s2.gender = 'f';

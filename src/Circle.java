@@ -1,14 +1,13 @@
-
 public class Circle {
-//	¹®Á¦3) ¹İÁö¸§°ú ÀÌ¸§À» °¡Áø  circle Å¬·¡½º¸¦ ÀÛ¼ºÇÏ°í circle Å¬·¡½ºÀÇ °´Ã¼¸¦ »ı¼ºÇÏ½Ã¿À
-//	Á¶°Ç1) °´Ã¼ 2°³ »ı¼º ,pizza, dounut
-//	Á¶°Ç2) ¿øÀÇ ³ĞÀÌ °ø½Ä, 3.14*¹İÁö¸§*¹İÁö¸§ (math.pi=3.14)
+//	ë¬¸ì œ3) ë°˜ì§€ë¦„ê³¼ ì´ë¦„ì„ ê°€ì§„  circle í´ë˜ìŠ¤ë¥¼ ì‘ì„±í•˜ê³  circle í´ë˜ìŠ¤ì˜ ê°ì²´ë¥¼ ìƒì„±í•˜ì‹œì˜¤
+//	ì¡°ê±´1) ê°ì²´ 2ê°œ ìƒì„± ,pizza, dounut
+//	ì¡°ê±´2) ì›ì˜ ë„“ì´ ê³µì‹, 3.14*ë°˜ì§€ë¦„*ë°˜ì§€ë¦„ (math.pi=3.14)
 	String name;
 	int r;
 	double constant;
 	
 	public void area() {
-		System.out.println("¿øÀÇ ³ĞÀÌ´Â "+Math.PI*r*r);
+		System.out.println("ì›ì˜ ë„“ì´ëŠ” "+Math.PI*r*r);
 	}
 
 }

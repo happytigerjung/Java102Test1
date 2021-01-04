@@ -1,21 +1,20 @@
-
 public class Rectangle {
-//	¹®Á¦2) »ç°¢Çü Å¬·¡½º¸¦ »ý¼ºÇÏ°í °¡·ÎÀÇ ±æÀÌ, »õ·ÎÀÇ ±æÀÌ¸¦ ÀúÀåÇÒ ¼ö ÀÖ´Â ¸É¹ö º¯¼ö¸¦ ¼±¾ð ÈÄ ÇØ´ç »ç°¢ÇüÀÇ ³ÐÀÌ¸¦ ±¸ÇÏ´Â ¸Å¼­µå¿Í
-//	°¡·Î ¹× ¼¼·ÎÀÇ ±æÀÌÀÇ ÇÕÀ» ±¸ÇÏ´Â ¸Þ¼­µå¸¦ ¼±¾ð ÈÄ ½ÇÇà Å¬·¡½º¿¡¼­ °´Ã¼¸¦ »ý¼ºÇÏ¿© ³ÐÀÌ¿Í ±æÀÌÀÇ ÇÕÀ» ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿ä
+//	ë¬¸ì œ2) ì‚¬ê°í˜• í´ëž˜ìŠ¤ë¥¼ ìƒì„±í•˜ê³  ê°€ë¡œì˜ ê¸¸ì´, ìƒˆë¡œì˜ ê¸¸ì´ë¥¼ ì €ìž¥í•  ìˆ˜ ìžˆëŠ” ë§´ë²„ ë³€ìˆ˜ë¥¼ ì„ ì–¸ í›„ í•´ë‹¹ ì‚¬ê°í˜•ì˜ ë„“ì´ë¥¼ êµ¬í•˜ëŠ” ë§¤ì„œë“œì™€
+//	ê°€ë¡œ ë° ì„¸ë¡œì˜ ê¸¸ì´ì˜ í•©ì„ êµ¬í•˜ëŠ” ë©”ì„œë“œë¥¼ ì„ ì–¸ í›„ ì‹¤í–‰ í´ëž˜ìŠ¤ì—ì„œ ê°ì²´ë¥¼ ìƒì„±í•˜ì—¬ ë„“ì´ì™€ ê¸¸ì´ì˜ í•©ì„ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œìš”
 	int width;
 	int rength;
 	
-//	»ç°¢ÇüÀÇ ³ÐÀÌ¸¦ ±¸ÇÏ´Â ¸Þ¼­µå
+//	ì‚¬ê°í˜•ì˜ ë„“ì´ë¥¼ êµ¬í•˜ëŠ” ë©”ì„œë“œ
 	public void recArea() {
 //		this.width = width;
 //		this.rength = rength;
 		
-		System.out.println("»ç°¢ÇüÀÇ ³ÐÀÌ´Â "+width*rength);
+		System.out.println("ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ” "+width*rength);
 	}
 	
-//	»ç°¢ÇüÀÇ µÑ·¹¸¦ ±¸ÇÏ´Â ¸Þ¼­µå
+//	ì‚¬ê°í˜•ì˜ ë‘˜ë ˆë¥¼ êµ¬í•˜ëŠ” ë©”ì„œë“œ
 	public void recLength() {
-		System.out.println("»ç°¢ÇüÀÇ µÑ·¹´Â"+(width*2+rength*2));
+		System.out.println("ì‚¬ê°í˜•ì˜ ë‘˜ë ˆëŠ”"+(width*2+rength*2));
 	}
 	
 	

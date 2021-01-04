@@ -5,20 +5,20 @@ public class BookMain {
 		Book b1 = new Book();
 		Book b2 = new Book();
 		
-		b1.title = "¿¬±İ¼ú»ç";
-		b1.author = "ÆÄ¿ï·ÎÄÚ¿¤·á";
+		b1.title = "ì—°ê¸ˆìˆ ì‚¬";
+		b1.author = "íŒŒìš¸ë¡œì½”ì—˜ë£Œ";
 		b1.getinfo();
 		
 		
-		b2.title = "°³¹Ì";
-		b2.author ="º£¸£º£¸£";
+		b2.title = "ê°œë¯¸";
+		b2.author ="ë² ë¥´ë² ë¥´";
 		b2.getinfo();
 		
 		
 		Book2 b21 = new Book2();
 		b21.setPrice("1000");
-		b21.setTitle("Á¤ÀÇ¶õ ¹«¾ùÀÎ°¡");
-		b21.setPrice("¸¶ÀÌÅ¬»÷µ¨");
+		b21.setTitle("ì •ì˜ë€ ë¬´ì—‡ì¸ê°€");
+		b21.setPrice("ë§ˆì´í´ìƒŒë¸");
 		b21.setPublisher("dd");
 		b21.getinfo();
 		
@@ -26,5 +26,5 @@ public class BookMain {
 		
 
 	}
-
+	
 }

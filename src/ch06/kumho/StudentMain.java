@@ -5,7 +5,7 @@ public class StudentMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Person p1 = new Person();
-		p1.name = "À¯Àç¼®";
+		p1.name = "ìœ ì¬ì„";
 		p1.age = 50;
 		p1.gender = 'M';
 		p1.email = "wo@gg.com";
@@ -13,7 +13,7 @@ public class StudentMain {
 		
 		Student s1 = new Student();
 		s1.studentNumber = "00001";
-		s1.name = "¾ÆÀÌÀ¯";
+		s1.name = "ì•„ì´ìœ ";
 		s1.age = 28;
 		s1.gender = 'f';
 		s1.email = "you@ggg.com";
@@ -23,21 +23,42 @@ public class StudentMain {
 		
 		
 
-		System.out.println("=============ÀÚµ¿ Å¸ÀÔº¯È¯==================");
-//		Å¬·¡½ºÀÇ ´ÙÇü¼º, ºÎ¸ğ Å¬·¡½ºÀÎ person Å¬·¡½º º¯¼ö¿¡ ÀÚ¼Õ Å¬·¡½º studentÅ¬·¡½ºÀÇ °´Ã¼ s1À» ³Ö¾ú´Ù
-//		ÀÌ°ÍÀÌ ÀÚµ¿Å¸ÀÔ º¯È¯ÀÌ´Ù
+		System.out.println("=============ìë™ íƒ€ì…ë³€í™˜==================");
+//		í´ë˜ìŠ¤ì˜ ë‹¤í˜•ì„±, ë¶€ëª¨ í´ë˜ìŠ¤ì¸ person í´ë˜ìŠ¤ ë³€ìˆ˜ì— ìì† í´ë˜ìŠ¤ studentí´ë˜ìŠ¤ì˜ ê°ì²´ s1ì„ ë„£ì—ˆë‹¤
+//		ì´ê²ƒì´ ìë™íƒ€ì… ë³€í™˜ì´ë‹¤
 		Person p2 = s1;
 		p2.getInfo();
-//		p2.getStudentInfo(); ÀÚ¼Õ Å¬·¡½º Å¸ÀÔÀÇ °´Ã¼ÀÎ s1À» ºÎ¸ğ Å¬·¡½º Å¸ÀÔÀÇ º¯¼ö p2¿¡ ´ëÀÔÇÏ¸é ºÎ¸ğ Å¬·¡½º Å¸ÀÔÀÇ ¸É¹ö¸¸ »ç¿ë°¡´ÉÇÔ
-//		ÀÚ¼Õ Å¬·¡½º Å¸ÀÔÀÇ °´Ã¼°¡ °¡Áö°í ÀÖ´Â µ¥ÀÌÅÍ´Â ±×´ë·Î À¯Áö
+//		p2.getStudentInfo(); ìì† í´ë˜ìŠ¤ íƒ€ì…ì˜ ê°ì²´ì¸ s1ì„ ë¶€ëª¨ í´ë˜ìŠ¤ íƒ€ì…ì˜ ë³€ìˆ˜ p2ì— ëŒ€ì…í•˜ë©´ ë¶€ëª¨ í´ë˜ìŠ¤ íƒ€ì…ì˜ ë§´ë²„ë§Œ ì‚¬ìš©ê°€ëŠ¥í•¨
+//		ìì† í´ë˜ìŠ¤ íƒ€ì…ì˜ ê°ì²´ê°€ ê°€ì§€ê³  ìˆëŠ” ë°ì´í„°ëŠ” ê·¸ëŒ€ë¡œ ìœ ì§€
 		
 		
-		System.out.println("=============°­Á¦ Å¸ÀÔº¯È¯==================");
+		System.out.println("=============ê°•ì œ íƒ€ì…ë³€í™˜==================");
+//		ì›ë³¸ì´ Studunt í´ë˜ìŠ¤ íƒ€ì…ì˜ ê°ì²´ì˜€ê¸°ë•Œë¬¸ì— ë¶€ëª¨ í´ë˜ìŠ¤ íƒ€ì…ì„ ìì† í´ë˜ìŠ¤ íƒ€ì…ìœ¼ë¡œ ê°•ì œ íƒ€ì…ë³€í™˜ í•˜ì—¬ ëŒ€ì…ì´ ê°€ëŠ¥
+//		ê°•ì œ íƒ€ì… ë³€í™˜ì‹œ ì›ë³¸ì˜ ì›ë˜ ë§´ë²„ë¥¼ ëª¨ë‘ ì‚¬ìš© ê°€ëŠ¥í•˜ë©° í•´ë‹¹ ë°ì´í„°ë„ ëª¨ë‘ ìœ ì§€ë¨
 		Student s2 = (Student)p2;
 		s2.getInfo();
 		s2.getStudentInfo();
+		
+		System.out.println("============= instanceof ==================");
+		
+		Person p3 = new Person();
+		Student s3 = new Student();
+		
+		System.out.println(p3 instanceof Person);
+		System.out.println(p3 instanceof Student);
+		System.out.println(s3 instanceof Person);
+		System.out.println(s3 instanceof Student);
+		
+		if(p3 instanceof Student) {
+			s3 = (Student)p3;
+			System.out.println("ê°•ì œ íƒ€ì… ë³€í™˜ ê°€ëŠ¥");
+		}
+		else {
+			System.out.println("ê°•ì œ íƒ€ì… ë³€í™˜ ë¶ˆê°€ëŠ¥");
+		}
 
 	}
+	
 
 }
 

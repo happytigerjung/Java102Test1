@@ -1,6 +1,6 @@
 
 public class Book2 {
-//	Á¦¸ñ ÀúÀÚ ÃâÆÇ»ç °¡°İ
+//	ì œëª© ì €ì ì¶œíŒì‚¬ ê°€ê²©
 	private String title;
 	private String author;
 	private String publisher;
@@ -31,10 +31,10 @@ public class Book2 {
 	}
 	
 	public void getinfo() {
-		System.out.println("Ã¥ÀÇ Á¦¸ñÀº "+title+"ÀÌ¸ç ÀÛ°¡´Â "+author+"ÀÔ´Ï´Ù.");
+		System.out.println("ì±…ì˜ ì œëª©ì€ "+title+"ì´ë©° ì‘ê°€ëŠ” "+author+"ì…ë‹ˆë‹¤.");
 	}
 	
-//	Getter/Setter À» »ç¿ëÇÏ´Â ÀÌÀ¯´Â °´Ã¼ÀÇ ¸É¹ö¿¡ ÇÔºÎ·Î Á¢±ÙÀ» Çã°¡ÇÏÁö ¾Ê±â À§ÇØ
+//	Getter/Setter ì„ ì‚¬ìš©í•˜ëŠ” ì´ìœ ëŠ” ê°ì²´ì˜ ë§´ë²„ì— í•¨ë¶€ë¡œ ì ‘ê·¼ì„ í—ˆê°€í•˜ì§€ ì•Šê¸° ìœ„í•´
 	
 	
 	

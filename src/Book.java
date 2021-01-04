@@ -1,7 +1,7 @@
 
 public class Book {
-//	¹®Á¦1) Á¦¸ñ°ú ÀúÀÚ¸¦ ³ªÅ¸³»´Â title°ú author ¸É¹ú º¯¼ö¸¦ °¡Áø Book Å¬·¡½º¸¦ ÀÛ¼ºÇÏ°í »ý¼ºÀÚ¸¦ ÀÛ¼ºÇÏ¿© ¹ì¹ö º¯¼ö¸¦ ÃÊ±âÈ­ ÇÏ°í È­¸é¿¡ Ãâ·ÂÇÏ¼¼¿ä
-//	Á¶°Ç 1. Ã¥ 2±Ç Á¤º¸¸¦ Ãâ·ÂÇÏ½Ã¿ä
+//	ë¬¸ì œ1) ì œëª©ê³¼ ì €ìžë¥¼ ë‚˜íƒ€ë‚´ëŠ” titleê³¼ author ë§´ë²Œ ë³€ìˆ˜ë¥¼ ê°€ì§„ Book í´ëž˜ìŠ¤ë¥¼ ìž‘ì„±í•˜ê³  ìƒì„±ìžë¥¼ ìž‘ì„±í•˜ì—¬ ë±€ë²„ ë³€ìˆ˜ë¥¼ ì´ˆê¸°í™” í•˜ê³  í™”ë©´ì— ì¶œë ¥í•˜ì„¸ìš”
+//	ì¡°ê±´ 1. ì±… 2ê¶Œ ì •ë³´ë¥¼ ì¶œë ¥í•˜ì‹œìš”
 	
 	String title;
 	String author;
@@ -19,9 +19,9 @@ public class Book {
 	
 
 	public void getinfo() {
-		System.out.println("Ã¥ÀÇ Á¦¸ñÀº "+title+"ÀÌ¸ç ÀÛ°¡´Â "+author+"ÀÔ´Ï´Ù.");
+		System.out.println("ì±…ì˜ ì œëª©ì€ "+title+"ì´ë©° ìž‘ê°€ëŠ” "+author+"ìž…ë‹ˆë‹¤.");
 	}
-//	this´Â °´Ã¼ ÀÚ±â ÀÚ½ÅÀ» °¡¸£Å°´Â Å°¿öµå
-//	this()´Â »ý¼ºÀÚ ³»¿¡¼­ ¶Ç ´Ù¸¥ »ý¼ºÀÚ¸¦ È£ÃâÇÏ±â À§ÇÑ ¸í·É¾î
+//	thisëŠ” ê°ì²´ ìžê¸° ìžì‹ ì„ ê°€ë¥´í‚¤ëŠ” í‚¤ì›Œë“œ
+//	this()ëŠ” ìƒì„±ìž ë‚´ì—ì„œ ë˜ ë‹¤ë¥¸ ìƒì„±ìžë¥¼ í˜¸ì¶œí•˜ê¸° ìœ„í•œ ëª…ë ¹ì–´
 
 }

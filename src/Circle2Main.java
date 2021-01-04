@@ -3,16 +3,16 @@ public class Circle2Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Circle2 pizza = new Circle2(10,"ÀÚ¹Ù ÇÇÀÚ");
+		Circle2 pizza = new Circle2(10,"ìë°” í”¼ì");
 		
 		double area = pizza.getArea();
-		System.out.println(pizza.name+"ÀÇ ¸éÀûÀº "+area);
+		System.out.println(pizza.name+"ì˜ ë©´ì ì€ "+area);
 		
 		Circle2 dounut = new Circle2();
-		dounut.name = "µµ³Ó";
+		dounut.name = "ë„ë„›";
 		area = dounut.getArea()
 ;
-		System.out.println(dounut.name+"ÀÇ ¸éÀûÀº "+ area);
+		System.out.println(dounut.name+"ì˜ ë©´ì ì€ "+ area);
 	}
 
 }

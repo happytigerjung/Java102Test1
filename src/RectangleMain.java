@@ -1,4 +1,3 @@
-
 public class RectangleMain {
 
 	public static void main(String[] args) {
@@ -13,10 +12,10 @@ public class RectangleMain {
 		
 //		int width = 15;
 //		int rength = 10;
-//		System.out.println("»ç°¢Çü ³ĞÀÌ :"+(width*rength));
-//		System.out.println("»ç°¢Çü ±æÀÌÀÇ ÇÕ :"+(width+rength));
+//		System.out.println("ì‚¬ê°í˜• ë„“ì´ :"+(width*rength));
+//		System.out.println("ì‚¬ê°í˜• ê¸¸ì´ì˜ í•© :"+(width+rength));
 		
-//		¹®Á¦ÀÇ »ç°¢ÇüÀÇ ³ĞÀÌ¿Í ±æÀÌÀÇ ÇÕÀ» ±¸ÇÏ´Â ¸Ş¼­µå ¼±¾ğ°ú °´Ã¼¸¦ »ı¼ºÇÏ´Â ¹ıÀ» ¸ğ¸£°Ù½À´Ï´Ù 
+//		ë¬¸ì œì˜ ì‚¬ê°í˜•ì˜ ë„“ì´ì™€ ê¸¸ì´ì˜ í•©ì„ êµ¬í•˜ëŠ” ë©”ì„œë“œ ì„ ì–¸ê³¼ ê°ì²´ë¥¼ ìƒì„±í•˜ëŠ” ë²•ì„ ëª¨ë¥´ê²ŸìŠµë‹ˆë‹¤ 
 
 	}
 

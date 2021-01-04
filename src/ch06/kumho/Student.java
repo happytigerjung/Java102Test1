@@ -5,8 +5,8 @@ public class Student extends Person{
 	public String classNumber;
 	
 	public void getStudentInfo() {
-		System.out.println("ÇĞ¹ø: "+studentNumber+"\nÀÌ¸§ :"+name+"\n³ªÀÌ :"+
-	age+"\n¼ºº° :"+gender+"\nºĞ¹İ :"+classNumber+"\nÀÌ¸ŞÀÏ :"+email);
+		System.out.println("í•™ë²ˆ: "+studentNumber+"\nì´ë¦„ :"+name+"\në‚˜ì´ :"+
+	age+"\nì„±ë³„ :"+gender+"\në¶„ë°˜ :"+classNumber+"\nì´ë©”ì¼ :"+email);
 	}
 
 }
