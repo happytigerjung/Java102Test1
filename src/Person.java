@@ -1,18 +1,11 @@
 
-//Å¬·¡½º »ı¼º
 public class Person {
-//	¸É¹ö º¯¼ö¸¸ °¡Áö°í ÀÖ´Â Person Å¬·¡½º¸¦ »ı¼ºÇÏ¿´´Ù.
 	String name;
-	int height;
-	double weight;
-	char gender;
-	boolean married;
+	String id;
 	
-	public void getInfo() {
-		System.out.println("ÀÌ¸§"+name+"\n ¼ºº° : "+gender+"\nÅ° :"+height+"\n¸ö¹«°Ô :"+weight+"\n¼ºº° :"+gender);
+//	Person í´ë˜ìŠ¤ì˜ ìƒì„±ì ì‹¤í–‰ ì‹œ ë§¤ê°œë³€ìˆ˜ì¸ nameì— ë°ì´í„°ë¥¼ ë°›ì•„ì˜´
+//	ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ì•„ì˜¨ ë°ì´í„°ë¥¼ Person í´ë˜ìŠ¤ì˜ ë©¤ë²„ ë³€ìˆ˜ nameì— ì €ì¥
+	public Person(String name) {
+		this.name = name;
 	}
-	
-	
 }
-
-

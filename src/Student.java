@@ -1,24 +1,11 @@
 
-public class Student {
-	String name;
-	int grade;
-	int height;
-	double weight;
-	char gender;
+// Person í´ë˜ìŠ¤ë¥¼ ìƒì†ë°›ì€ Student í´ë˜ìŠ¤
+// Person í´ë˜ìŠ¤ì˜ ëª¨ë“  ë©¤ë²„ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìˆìŒ
+public class Student extends Person {
+	String grade;
+	String department;
 	
-//	È­¸é Ãâ·ÂÀ» À§ÇÑ ¸Ş¼­µå
-	public void getSinfo() {
-		System.out.println("ÀÌ¸§ :"+name+"\nÇĞ³â :"+grade+"\nÅ° :"+height+"\n¸ö¹«°Ô :"+weight+"\n¼ºº° :"+gender);
+	public Student(String name) {
+		super(name);
 	}
-	
-	//µ¥ÀÌÅÍ ÀúÀåÀ» À§ÇÑ ¸Ş¼­µå ¼±¾ğ
-	public void setSinfo(String name, int grade, int height, double weight, char gender) {
-		this.name = name;
-		this.grade = grade;
-		this.height = height;
-		this.weight = weight;
-		this.gender = gender;
-	}
-	
-
 }
